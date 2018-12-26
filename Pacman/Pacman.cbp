@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Pacman" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="Drawing\;Drawing\drawingCpp\;Drawing\drawingHeaders\;Game\;Game\gameHeaders\;Game\gameCpp\;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Pacman" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="C:/Program Files (x86)/CodeBlocks/MinGW/bin" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="C:\Program Files (x86)\CodeBlocks\MinGW\lib\libSOIL.a" />
+					<Add library="C:\Program Files (x86)\CodeBlocks\MinGW\lib\libopengl32.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Pacman" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="C:/Program Files (x86)/CodeBlocks/MinGW/bin" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/include" />
+		</Compiler>
+		<Linker>
+			<Add library="glut32" />
+			<Add library="opengl32" />
+			<Add library="glu32" />
+			<Add library="winmm" />
+			<Add library="gdi32" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/lib" />
+		</Linker>
+		<Unit filename="Characters.cpp">
+			<Option virtualFolder="Game/gameCpp/" />
+		</Unit>
+		<Unit filename="Characters.h">
+			<Option virtualFolder="Game/gameHeaders/" />
+		</Unit>
+		<Unit filename="Image.cpp">
+			<Option virtualFolder="Drawing/drawingCpp/" />
+		</Unit>
+		<Unit filename="Image.h">
+			<Option virtualFolder="Drawing/drawingHeaders/" />
+		</Unit>
+		<Unit filename="Monster.cpp">
+			<Option virtualFolder="Game/gameCpp/" />
+		</Unit>
+		<Unit filename="Pac.cpp">
+			<Option virtualFolder="Game/gameCpp/" />
+		</Unit>
+		<Unit filename="Queue.h" />
+		<Unit filename="Scenario.cpp">
+			<Option virtualFolder="Game/gameCpp/" />
+		</Unit>
+		<Unit filename="Scenario.h">
+			<Option virtualFolder="Game/gameHeaders/" />
+		</Unit>
+		<Unit filename="Sprites.h">
+			<Option virtualFolder="Game/gameHeaders/" />
+		</Unit>
+		<Unit filename="Square.cpp">
+			<Option virtualFolder="Drawing/drawingCpp/" />
+		</Unit>
+		<Unit filename="Square.h">
+			<Option virtualFolder="Drawing/drawingHeaders/" />
+		</Unit>
+		<Unit filename="Texture.cpp">
+			<Option virtualFolder="Drawing/drawingCpp/" />
+		</Unit>
+		<Unit filename="Texture.h">
+			<Option virtualFolder="Drawing/drawingHeaders/" />
+		</Unit>
+		<Unit filename="Vector.cpp">
+			<Option virtualFolder="Drawing/drawingCpp/" />
+		</Unit>
+		<Unit filename="Vector.h">
+			<Option virtualFolder="Drawing/drawingHeaders/" />
+		</Unit>
+		<Unit filename="enable.cpp" />
+		<Unit filename="enable.h" />
+		<Unit filename="geneticLib.cpp" />
+		<Unit filename="geneticLib.h" />
+		<Unit filename="include/Characters.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
